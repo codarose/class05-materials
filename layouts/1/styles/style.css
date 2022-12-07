@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  height: 100px;
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+
+.three-column div {
+  float: left;
+  width: 33.33333%;
+  height: 200px;
+  border: 0.5px solid gray;
+  border-collapse: collapse;
+}
+
+.two-column div {
+  float: left;
+  height: 250px;
+  width: 50%;
+  border: 1px solid gray;
+
+  border-bottom: 1px solid gray;
+}
+
+footer {
+  clear: left;
+  height: 100px;
+  border: 1px solid gray;
+  border-collapse: collapse;
+}

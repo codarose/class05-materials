@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header,
+footer {
+  height: 150px;
+  border: 1px solid gray;
+  clear: both;
+}
+
+.four-column div {
+  height: 400px;
+  float: left;
+  border: 1px solid gray;
+}
+
+.thin {
+  width: 20%;
+}
+
+.wide {
+  width: 40%;
+}

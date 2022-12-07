@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  height: 100px;
+  border: 1px solid gray;
+}
+
+section {
+  float: left;
+  width: 33.33333333%;
+  height: 200px;
+  border: 1px solid gray;
+  margin: 0;
+}
+
+footer {
+  clear: left;
+  height: 100px;
+  border: 1px solid gray;
+}

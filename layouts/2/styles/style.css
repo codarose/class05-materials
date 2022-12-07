@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header,
+footer {
+  height: 150px;
+  border: 1px solid gray;
+  clear: both;
+}
+
+.full-width {
+  clear: both;
+  height: 200px;
+  border: 1px solid gray;
+}
+
+.smaller,
+.larger {
+  height: 200px;
+  float: left;
+  border: 1px solid gray;
+}
+
+.smaller {
+  width: 33.3333%;
+}
+
+.larger {
+  width: 66.6666%;
+}
